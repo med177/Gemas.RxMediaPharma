@@ -4,7 +4,7 @@ Uygulamaya ait veritabanı ayarı Gemas.RxMediaPharma/RxMediaPharma/App.Config i
 
 ```xml
 <connectionStrings>
-		<add name="SQLite" connectionString="Data Source=C:\Users\med\Desktop\GemasRxMediaPharma\Gemas.RxMediaPharma\RxMediaPharma\bin\Debug\DB\rxsample.db" />
+  <add name="SQLite" connectionString="Data Source=C:\Users\med\Desktop\GemasRxMediaPharma\Gemas.RxMediaPharma\RxMediaPharma\bin\Debug\DB\rxsample.db" />
 </connectionStrings>
 ```
 
