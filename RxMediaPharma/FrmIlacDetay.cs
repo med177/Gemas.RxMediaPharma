@@ -107,7 +107,7 @@ namespace RxMediaPharma
 			lblFiyatTarih.Text = $"({_currentIlac.FIYATTARIH:dd/MM/yyyy})";
 			lblKamuFiyat.Text = _currentIlac.KAMUFIYATI.To<decimal>().ToString("c2"); ;
 			lblKamuOdenen.Text = _currentIlac.KAMUODENEN.To<decimal>().ToString("c2");
-			lblKamuOdenenFark.Text = (_currentIlac.KAMUFIYATI - _currentIlac.KAMUODENEN).To<decimal>().ToString("c2");
+			lblKamuOdenenFark.Text = $"({(_currentIlac.KAMUFIYATI - _currentIlac.KAMUODENEN).To<decimal>().ToString("c2")} FİYAT FARKI)";
 			lblDepocuFiyat.Text = _currentIlac.DEPOCU.To<decimal>().ToString("c2") + " + KDV";
 			lblImalatciFiyat.Text = _currentIlac.IMALATCI.To<decimal>().ToString("c2") + " + KDV";
 			lblKdv.Text = "%8";
